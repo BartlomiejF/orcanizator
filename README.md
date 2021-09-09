@@ -76,7 +76,8 @@ SMILES of successfully processed molecules are saved into done.log file. The don
 
 **Arguments:**
   
-  smiles {str} -- [SMILES molecule structure]  nb {int} -- [Number. This is ORCA input and output file name] 
+  smiles {str} -- [SMILES molecule structure]  
+  nb {int} -- [Number. This is ORCA input and output file name] 
 
 
 
