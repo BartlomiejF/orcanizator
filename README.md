@@ -3,7 +3,7 @@ generate ORCA input files from SMILES
 
 **Global Variables**
 ---------------
-- **ORCA_EXECUTABLE**
+- **ORCA_EXECUTABLE** - it is a global variable, because I wanted it to appear on top of the file; it is utilised only by one function but it is meant to be changed by the user.
 
 ---
 
