@@ -18,6 +18,7 @@ Generate ORCA input file from SMILES. ORCA arguments are hardcoded into the func
 
 
 **Arguments:**
+  
   smiles {str} -- SMILES structure of the molecule.  
   nb {int} -- number. This will be the name of the input file. 
 
@@ -46,6 +47,7 @@ Read following properties of ORCA output file:
 
 
 **Arguments:**
+  
   smiles {str} -- SMILES structure of the molecule.  
   nb {int} -- number. This is the name of the output file to be read. 
 
@@ -73,6 +75,7 @@ SMILES of successfully processed molecules are saved into done.log file. The don
 
 
 **Arguments:**
+  
   smiles {str} -- [SMILES molecule structure]  nb {int} -- [Number. This is ORCA input and output file name] 
 
 
@@ -94,6 +97,7 @@ Run orcanize function with a collection of SMILES.
 
 
 **Arguments:**
+  
   molecules {Union[str]} -- collection of SMILES strings.  
   save {bool} -- save the pandas dataframe to csv(True, default) or  not(False); by convention it is saved everytime ORCA  successfully finishes calculation 
 
